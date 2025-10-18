@@ -30,4 +30,4 @@ jobs:
         args: controllers/ database/ models/ routes/
 
     - name: Test
-      run: docker compose exec app go test main_test.go
+      run: go test main_test.go
